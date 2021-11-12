@@ -1,0 +1,31 @@
+{
+  "name": "futcwnj",
+  "version": "1.0.0",
+  "description": "File Upload To Cloudinary With Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu-c/futcwnj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolu-c/futcwnj/issues"
+  },
+  "homepage": "https://github.com/tolu-c/futcwnj#readme",
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
